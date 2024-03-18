@@ -20,3 +20,40 @@ nav {
 /* -------------------------------------------- */
 
 
+body {
+	margin:0;
+	height: auto;
+	width: auto;
+	font-size: 16px;
+}
+
+.hlavicka, .paticka {
+	height: 20vh;
+}
+.nav, .article, .aside {
+	height: 60vh;
+	display: flex;
+	flex-direction: row;
+}
+
+.nav, .aside {
+	width: 20vw;
+}
+
+.article {
+	width: 60vw;
+}
+
+.hlavicka,
+.nav,
+.article,
+.aside,
+.paticka {
+	padding: 10px;
+}
+
+
+
+
+
+

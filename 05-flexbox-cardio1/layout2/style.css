@@ -18,5 +18,54 @@ nav {
 /* -------------------------------------------- */
 /* tady piš svoje CSS */
 /* -------------------------------------------- */
+body {
+	margin: 0;
+	width: 100vw;
+}
+
+.kontejner {
+	display: flex;
+	flex-direction: row;
+}
+.navigace {
+	flex-grow: 1;
+	width: 20vw;	
+}
 
 
+.main {
+	height: 100vh;
+	width: 80vw;
+}
+
+.obsah {
+	display: flex;
+	flex-direction: row;
+	height: 80vh;
+	width: 80vw;
+}
+
+.clanek {
+	flex-grow: 3;
+}
+
+.aside {
+	flex-grow: 1;
+}
+
+.hlavicka {
+	height: 10vh;
+}
+
+.paticka {
+	height: 10vh;
+}
+
+.navigace,
+.hlavicka,
+.clanek,
+.aside,
+.paticka {
+	padding: 10px;
+	margin: 0;
+}

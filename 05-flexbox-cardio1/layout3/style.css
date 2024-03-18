@@ -19,4 +19,35 @@ nav {
 /* tady piš svoje CSS */
 /* -------------------------------------------- */
 
+body {
+	margin: 0;
+	width: auto;
+	height: auto;
+}
 
+.kontejner {
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+}
+
+.nav {
+	height: 100vh;
+	width: 20vw;
+	padding: 10px;
+}
+
+.telo {
+	width: 80vw;
+}
+
+.hlavicka, 
+.paticka {
+	height: 20vh;
+	padding: 10px;
+}
+
+.article {
+	height: 60vh;
+	padding: 10px;
+}
